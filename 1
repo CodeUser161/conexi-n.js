@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    
+    <link rel="stylesheet" href="estilos.css">
+    <h1> Especialidades médicas </h1>
+    <hr>
+    <p> Favor de responder cada uno de los campos solicitados. Este formulario será utilizado para reubicaciones y cambios de puesto futuras dentro del centro de salud.</p>
+    <img src="images.png" alt="Especialistas" width="250" height="250">
+    <br>
+    <br>
+    <form action="https://formsubmit.co/your@email.com" method="POST">
+
+        <label for="nombre"> Nombre: </label>
+        <input type= "text" id="nombre" name="nombre" >
+        <br>
+        <br>
+        <label for="edad"> Edad: </label>
+        <input type= "text" id="edad"name="edad" >
+        <br>
+        <br>
+        <p>Sexo:</p>
+        <label>
+            <input type="checkbox" name="lugar[]" value="sexo">
+            Mujer
+        </label>
+        <label>
+            <input type="checkbox" name="lugar[]" value="calle">
+            Hombre
+        </label>
+        <br>
+        <br>
+        <label for="correo"> Correo: </label>
+        <input type= "text" id="correo"name="correo" >
+        <br>
+        <br>
+        <label for="telefono"> Número de teléfono: </label>
+        <input type= "text" id="telefono"name="telefono" >
+        <br>
+        <br>
+        <label for="especialidad "> Especialidad(es): </label>
+        <input type= "text" id="especialidad"name="especialidad" >
+        <br>
+        <br>
+        <label for="descripcion"> Descripción: </label>
+        <textarea type= "text" id="descripcion" name="descripcion" > </textarea>
+        <br>
+        <br>
+        <label for="puesto "> Puesto </label>
+        <input type= "text" id="puesto"name="puesto" >
+        <br>
+        <br>
+        <label for="superior"> Superior actual: </label>
+        <input type= "text" id="superior"name="superior" >
+        <br>
+        <br>
+        <label for="escuela "> Escuela(s) de titulación: </label>
+        <input type= "text" id="escuela"name="escuela" >
+        <br>
+        <br>
+        <input type="submit">
+        <button type="reset">Borrar todo</button>
+    
+    </form>
+
+    <a href="reubicacióncentromédico.com"> Revisa tus resultados</a>
+    <br>
+    <p> Es posible que la respuesta tarde algunas semanas. Por favor tenga paciencia</p>
+</body>
+</html>
